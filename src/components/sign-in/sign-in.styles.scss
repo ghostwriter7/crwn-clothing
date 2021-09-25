@@ -1,0 +1,22 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 10px 15px;
+
+  & > * {
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    margin-bottom: 5px;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
